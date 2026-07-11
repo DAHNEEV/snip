@@ -1,0 +1,20 @@
+{
+  "db_name": "SQLite",
+  "query": "SELECT original FROM links WHERE slug = ?",
+  "describe": {
+    "columns": [
+      {
+        "name": "original",
+        "ordinal": 0,
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "746fca19f1d88c032fbf8864d7995a6457535dcf20011382bb894bdefea06db0"
+}
